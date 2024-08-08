@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login with Wallet Address</title>
     <link rel="stylesheet" href="cctv.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form id="login-form">
-            <label for="wallet-address">Wallet Address:</label>
-            <input type="text" id="wallet-address" name="wallet-address" required>
+    <div class="background-container">
+        <div class="login-container">
+            <div class="image-container">
+                <img src ="https://i.pinimg.com/564x/35/df/6d/35df6d903485cb9a00cfa72e70982c32.jpg" alt="cctv image">
+            </div>
+            <h2>WELCOME</h2>
+            <form id="login-form">
+                <label for="wallet-address">Wallet Address:</label>
+                <input type="text" id="wallet-address" name="wallet-address" required>
 
-            <label for="user-id">User ID:</label>
-            <input type="text" id="user-id" name="user-id" required>
+                <label for="Key">Key:</label>
+                <input type="text" id="Key" name="key" required>
 
-            <button type="submit">Login</button>
-        </form>
-        <div id="login-status"></div>
+                <button type="submit">SUBMIT</button>
+            </form>
+            <div id="login-status"></div>
+        </div>
     </div>
 
     <script src="cctv.js"></script>
