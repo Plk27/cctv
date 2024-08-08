@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login with Wallet Address</title>
+    <link rel="stylesheet" href="cctv.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="wallet-address">Wallet Address:</label>
+            <input type="text" id="wallet-address" name="wallet-address" required>
+
+            <label for="user-id">User ID:</label>
+            <input type="text" id="user-id" name="user-id" required>
+
+            <button type="submit">Login</button>
+        </form>
+        <div id="login-status"></div>
+    </div>
+
+    <script src="cctv.js"></script>
+</body>
+</html>
